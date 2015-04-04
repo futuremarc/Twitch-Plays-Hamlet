@@ -1,0 +1,19 @@
+{
+  "name": "twitch",
+  "version": "1.0.0",
+  "description": "twitch plays hamlet over sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "twitch plays hamlet"
+  },
+  "author": "Marc Abi-Samra",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "0.9.6",
+    "connect": "1.9.2"
+  }
+}

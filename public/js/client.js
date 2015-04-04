@@ -6,6 +6,7 @@ $(document).ready(function (){
 
 	request.onload = function(){
 		var emotionText = this.responseText;
+		console.log(emotionText);
 		emotionList = emotionText.split('\n');
 		socket.emit('emotions', {l: emotionList.length});
 	}

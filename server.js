@@ -7,8 +7,6 @@ var ID = 0,
 	emotionListLength;
 
 
-
-
 room.sockets.on('connection', function(socket){
 
 	socket.emit('entrance', {
